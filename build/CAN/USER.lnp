@@ -1,0 +1,26 @@
+--cpu Cortex-M3 --library_type=microlib --scatter "c:/Users/Administrator.DESKTOP-EF3VR03/Desktop/ZET6/USER/build/CAN/USER.sct" --strict --summary_stderr --info summarysizes --map --xref --callgraph --symbols --info sizes --info totals --info unused --info veneers
+--list .\build\CAN\USER.map
+.\build\CAN\__\CORE\core_cm3.o
+.\build\CAN\__\HARDWARE\CAN\can.o
+.\build\CAN\__\HARDWARE\KEY\key.o
+.\build\CAN\__\HARDWARE\LED\led.o
+.\build\CAN\__\HARDWARE\STMFLASH\stmflash.o
+.\build\CAN\__\HARDWARE\TIMER\timer.o
+.\build\CAN\__\HARDWARE\WS2812B\WS2812B.o
+.\build\CAN\__\STM32F10x_FWLib\src\misc.o
+.\build\CAN\__\STM32F10x_FWLib\src\stm32f10x_can.o
+.\build\CAN\__\STM32F10x_FWLib\src\stm32f10x_dma.o
+.\build\CAN\__\STM32F10x_FWLib\src\stm32f10x_flash.o
+.\build\CAN\__\STM32F10x_FWLib\src\stm32f10x_fsmc.o
+.\build\CAN\__\STM32F10x_FWLib\src\stm32f10x_gpio.o
+.\build\CAN\__\STM32F10x_FWLib\src\stm32f10x_rcc.o
+.\build\CAN\__\STM32F10x_FWLib\src\stm32f10x_tim.o
+.\build\CAN\__\STM32F10x_FWLib\src\stm32f10x_usart.o
+.\build\CAN\__\SYSTEM\delay\delay.o
+.\build\CAN\__\SYSTEM\sys\sys.o
+.\build\CAN\__\SYSTEM\usart\usart.o
+.\build\CAN\main.o
+.\build\CAN\stm32f10x_it.o
+.\build\CAN\system_stm32f10x.o
+.\build\CAN\test.o
+.\build\CAN\__\CORE\startup_stm32f10x_hd.o -o .\build\CAN\USER.axf
