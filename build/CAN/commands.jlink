@@ -1,0 +1,6 @@
+r
+halt
+loadfile "c:\Users\Administrator.DESKTOP-EF3VR03\Desktop\ZET6\USER\build\CAN\USER.hex"
+r
+go
+exit

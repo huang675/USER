@@ -41,3 +41,53 @@
 [2022-03-12 22:51:56]	[done]
 	build successfully !
 
+[2022-03-12 22:54:24]	[done]
+	build successfully !
+
+[2022-03-12 22:56:00]	[done]
+	build successfully !
+
+[2022-03-12 22:59:19]	[done]
+	build successfully !
+
+[2022-03-12 23:01:58]	[done]
+	build successfully !
+
+[2022-03-12 23:02:29]	compilation failed at : "c:\Users\Administrator.DESKTOP-EF3VR03\Desktop\ZET6\SYSTEM\usart\usart.c", exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x0187a] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+".\..\SYSTEM\usart\usart.c", line 20: Error:  #260-D: explicit type is missing ("int" assumed)
+  _sys_exit(int x) 
+  ^
+.\..\SYSTEM\usart\usart.c: 0 warnings, 1 error
+
+[2022-03-12 23:10:40]	compilation failed at : "c:\Users\Administrator.DESKTOP-EF3VR03\Desktop\ZET6\SYSTEM\usart\usart.c", exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x0187a] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+".\..\SYSTEM\usart\usart.c", line 20: Error:  #260-D: explicit type is missing ("int" assumed)
+  _sys_exit(int x) 
+  ^
+.\..\SYSTEM\usart\usart.c: 0 warnings, 1 error
+
+[2022-03-12 23:10:50]	compilation failed at : "c:\Users\Administrator.DESKTOP-EF3VR03\Desktop\ZET6\SYSTEM\usart\usart.c", exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x0187a] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+".\..\SYSTEM\usart\usart.c", line 20: Error:  #260-D: explicit type is missing ("int" assumed)
+  _sys_exit(int x) 
+  ^
+.\..\SYSTEM\usart\usart.c: 0 warnings, 1 error
+
+[2022-03-12 23:11:06]	compilation failed at : "c:\Users\Administrator.DESKTOP-EF3VR03\Desktop\ZET6\SYSTEM\usart\usart.c", exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x0187a] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+".\..\SYSTEM\usart\usart.c", line 20: Error:  #260-D: explicit type is missing ("int" assumed)
+  _sys_exit(int x)
+  ^
+.\..\SYSTEM\usart\usart.c: 0 warnings, 1 error
+
+[2022-03-12 23:16:45]	[done]
+	build successfully !
+
+[2022-03-12 23:26:56]	[done]
+	build successfully !
+
