@@ -1,3 +1,11 @@
+/*
+ * @Author: your name
+ * @Date: 2022-03-12 22:28:01
+ * @LastEditTime: 2022-03-12 22:43:28
+ * @LastEditors: your name
+ * @Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+ * @FilePath: \USER\test.c
+ */
 #include "test.h"
 
 u8 CanSendBuf[8];                   //CAN通信发送的数据
@@ -50,7 +58,7 @@ void Testinit (void)
 {
 	delay_init();	    	 //延时函数初始化	  
 	NVIC_PriorityGroupConfig(NVIC_PriorityGroup_2);//设置中断优先级分组为组2：2位抢占优先级，2位响应优先级
-	uart_init(9600);	 	//串口初始化为
+	uart_init(115200);	 	//串口初始化为
 	LED_Init();		  		//初始化与LED连接的硬件接口
 	KEY_Init();				//按键初始化		 	  
 	CAN_Mode_Init(CAN_SJW_1tq,CAN_BS2_3tq,CAN_BS1_2tq,24,CAN_Mode_Normal);//CAN初始化环回模式,波特率250Kbps  
